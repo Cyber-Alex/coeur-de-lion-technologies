@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .blue{fill:#0b4da2}
+      .red{fill:#e5302b}
+      .gold{fill:#c9a227}
+      .light{fill:#ffffff}
+    </style>
+  </defs>
+  <!-- Shield base -->
+  <path class="blue" d="M256,32c61,32,122,32,174,32v192c0,110-83,180-174,224-91-44-174-114-174-224V64c52,0,113,0,174-32Z"/>
+  <!-- Inner panel -->
+  <path class="light" d="M256,84c47,21,94,21,134,21v141c0,84-63,135-134,171-71-36-134-87-134-171V105c40,0,87,0,134-21Z"/>
+  <!-- Central mark: heart with gold crown -->
+  <path class="red" d="M256 330c-38-27-92-57-92-106 0-29 22-52 50-52 19 0 35 10 42 26 7-16 23-26 42-26 28 0 50 23 50 52 0 49-54 79-92 106z"/>
+  <!-- Crown -->
+  <path class="gold" d="M292 168l20 30 34-22 10 38 40-8-18 36 34 22-40 8 10 38-34-22-20 30-20-30-34 22 10-38-40-8 34-22-18-36 40 8 10-38 34 22z" transform="scale(0.6) translate(210,170)"/>
+</svg>
